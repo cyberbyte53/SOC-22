@@ -1,5 +1,4 @@
-# **Welcome to Week 1 of Learner Space's Python!**
-
+# **Python Basics!**
 
 For all those looking to learn python from scratch , you can begin with the material given below, while those of you who are already familiar with python and are just looking to revise can go through [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Python_Review.ipynb).  
 
@@ -100,7 +99,7 @@ Make sure you have covered the following topics -
 
 ## Functions
 Functions are the named blocks of code that are designed to do one specific job. When you want to perform a particular task that you’ve defined in a function, you call the name of that function responsible for it. If you need to perform that task multiple times throughout your program, you don't need to type all the code for the same task again and again; you just call the function dedicated to handling that task, and the call tells Python to run the code inside the function. You’ll find that using functions makes your programs easier to write, read, test, and fix.
-You can see [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Functions.ipynb) which covers some details about the functions.  
+You can see [this notebook](https://github.com/cyberbyte53/SOC-22/blob/main/Week-1/Functions.ipynb) which covers some details about the functions.  
 If you prefer to watch videos to learn you can head over to [this link](https://www.youtube.com/watch?v=1OuRhD7FmTA&list=PLzMcBGfZo4-mFu00qxl0a67RhjjZj3jXm&index=12).
 
 ## **Scope of a Variable**
@@ -121,7 +120,7 @@ If you prefer to watch videos you can go through [this video](https://www.youtub
 One advantage of functions is the way they separate blocks of code from your main program. By using descriptive names for your functions, your main program will be much easier to follow. You can go a step further by storing your functions in a separate file called a module and then importing that module into your main program.
 Storing your functions in a separate file allows you to hide the details of your program’s code and focus on its higher-level logic. It also allows you to re-use functions in many different programs. When you store your functions in separate files, you can share those files with other programmers without having to share your entire program. Knowing how to import functions also allows you to use libraries of functions that other programmers have written.
 
-You can go through [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Modules_and_Packages.ipynb) to learn about modules and packages.
+You can go through [this notebook](https://github.com/cyberbyte53/SOC-22/blob/main/Week-1/Modules_and_Packages.ipynb) to learn about modules and packages.
 
 ## **Iterators**
 Iterator in python is any python type that can be used with a ‘for in loop’. Python lists, tuples, dicts and sets are all examples of inbuilt iterators. These types are iterators because they implement following methods.In fact, any object that wants to be an iterator must implement following methods.
@@ -129,8 +128,6 @@ Iterator in python is any python type that can be used with a ‘for in loop’.
 __ iter__ method that is called on initialization of an iterator. This should return an object that has a next or __ next__ (in Python 3) method.
 
 next ( __ next__ in Python 3) The iterator next method should return the next value for the iterable. When an iterator is used with a ‘for in’ loop, the for loop implicitly calls next() on the iterator object. This method should raise a StopIteration to signal the end of the iteration.
-
-Check out this [Notebook](https://github.com/abhipaiangle/learners-space/blob/master/Python/Week%204/Notebook2.ipynb) to learn about Python Iterators.
 
 To read more about Iterators refer [this](https://www.geeksforgeeks.org/iterators-in-python/)
 
@@ -153,7 +150,7 @@ When you write a class, you define the general behavior that a whole category of
 
 Making an object from a class is called _instantiation_, and you work with _instances_ of a class. You’ll specify the kind of information that can be stored in instances, and you’ll define the actions that can be taken with these _instances_.
 
-You can visit [this notebook](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/Classes.ipynb) to learn about classes and objects.   
+You can visit [this notebook](https://github.com/cyberbyte53/SOC-22/blob/main/Week-1/Classes.ipynb) to learn about classes and objects.   
 You can also go through [this video](https://www.youtube.com/watch?v=jQiUOV15IRI&list=PLzMcBGfZo4-l1MqB1zoYfqzlj_HH-ZzXt&index=2).
 
 
@@ -167,7 +164,6 @@ Hence, in Python, a file operation takes place in the following order:
 * Open a file
 * Read or write (perform operation)
 * Close the file
-Head over to this [Notebook](https://github.com/wncc/learners-space/blob/master/Python/Week%205/File_Handling/Week5-1.ipynb) to learn about Python functions for fucntions for file handling.
 
 To read more about File Handling refer [this](https://www.geeksforgeeks.org/file-handling-python/)
 
@@ -176,13 +172,9 @@ This brings us to the end of this week's material. By now you should  be familia
 
 ## Assignment
 
-You should now be able to complete the snippet of code designed to read a particular piece of text and answer user's queries about certain words by printing the context in which these words appeared in the text. You can find it as a Jupyter Notebook [here](https://github.com/Karrthik-Arya/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/AssignmentForSnippetCompletion.ipynb).
+You should now be able to complete the snippet of code designed to read a particular piece of text and answer user's queries about certain words by printing the context in which these words appeared in the text. You can find it as a Jupyter Notebook [here](https://github.com/cyberbyte53/SOC-22/blob/main/Week-1/AssignmentForSnippetCompletion.ipynb).
 
 **Optional Assignment** : Think Completing the Snippet was a piece of cake for you? Learn about the Goodstein Function from [here](https://en.wikipedia.org/wiki/Goodstein%27s_theorem#Goodstein_sequences), then try to implement a function which calculates the the kth term of G(m). 
-
-Solution to the first assignment can be found [here](https://github.com/wncc/TSS-2021/blob/main/Python%20%26%20its%20Applications/Week-1/AssignmentForSnippetCompletion(SOLUTION).ipynb).
-
-The Solution to the Optional Assignment is quite long and complex, hence we thought it would be better to give you links to a better implementation, which you may look at [here](https://wgunderwood.github.io/2020/03/02/goodstein-calculator.html).
 
 
 
