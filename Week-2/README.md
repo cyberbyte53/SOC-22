@@ -103,7 +103,7 @@ You may look at a naive implementation of Mean Reversion in [Country Equity Indi
 
 ## Assignment
 
-This week's assignments would be a great leap more difficult than last week's. If you aren't able to complete them just as easily as last week's, do not lose hope. You can always ask for help in the Telegram channel. We are making two separate versions of the assignment for that purpose!
+This week's assignments would be a great leap more difficult than last week's. If you aren't able to complete them just as easily as last week's, do not lose hope. You can always ask for help in the whatsapp. We are making two separate versions of the assignment for that purpose!
 
 * The first version would have a basic coding architecture ready for you, and you'll only have to implement various functions (we'll also tell you what these functions are supposed to do!)
 
